@@ -73,32 +73,21 @@ body {
 
 /* SHOWREEL */
 
-.showreel-media {
-    position: relative;
+.showreel {
+    padding: 0 3%;
+}
+
+.showreel-video {
     width: 100%;
-    height: 70vh;
+    aspect-ratio: 16 / 9;
     overflow: hidden;
 }
 
-.showreel-image {
+.showreel-video iframe {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    border: 0;
     display: block;
-}
-
-.showreel-overlay {
-    position: absolute;
-    inset: 0;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-    gap: 160px;
-
-    background: rgba(0, 0, 0, 0.25);
 }
 
 
