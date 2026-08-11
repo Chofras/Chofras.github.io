@@ -78,8 +78,11 @@ body {
 }
 
 .showreel-video {
-    width: 100%;
+    width: 90%;
+    max-width: 1400px;
     aspect-ratio: 16 / 9;
+
+    margin: 0 auto;
     overflow: hidden;
 }
 
