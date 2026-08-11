@@ -21,7 +21,7 @@ body {
    ========================= */
 
 .site-header {
-    max-width: 1400px;
+    max-width: 1600px;
     margin: 0 auto;
 
     display: flex;
@@ -102,7 +102,7 @@ body {
    ========================= */
 
 .showreel {
-    max-width: 1400px;
+    max-width: 1600px;
     margin: 0 auto;
 
     padding: 0 40px;
